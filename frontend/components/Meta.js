@@ -8,7 +8,7 @@ const Meta = ({ title, keywords, description }) => {
       <meta name="description" content={description} />
       <meta charSet="utf-8" />
       <meta name="google" content="notranslate" />
-      <link rel="icon" href="/logo.svg" />
+      {/* <link rel="icon" href="/logo.svg" /> */}
       <title>{title}</title>
     </Head>
   );

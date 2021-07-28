@@ -48,6 +48,7 @@ export default function CompletedTasks(posts) {
             <tbody>
               {posts.tasks.map((element) => (
                 <CompletedRow
+                  key={element._id}
                   name={element.taskName}
                   status={element.status}
                   id={element._id}

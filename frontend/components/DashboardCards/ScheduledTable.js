@@ -49,6 +49,7 @@ export default function ScheduledTasks(posts) {
             <tbody>
               {posts.tasks.map((element) => (
                 <ScheduledRow
+                  key={element._id}
                   name={element.taskName}
                   status={element.status}
                   id={element._id}
